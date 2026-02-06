@@ -1,0 +1,1 @@
+hola, este es un texto que esta dentro de "ejercicio6.txt" me gusta mucho esto de mostrar archivos de texto através de php. 

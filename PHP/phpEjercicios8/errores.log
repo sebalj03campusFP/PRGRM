@@ -1,0 +1,12 @@
+[16-Jan-2026 12:36:56 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: fopen() expects at least 2 arguments, 1 given in C:\xampp\htdocs\work\phpEjercicios8\add_contact.php:29
+Stack trace:
+#0 C:\xampp\htdocs\work\phpEjercicios8\add_contact.php(29): fopen('agenda.txt')
+#1 {main}
+  thrown in C:\xampp\htdocs\work\phpEjercicios8\add_contact.php on line 29
+[16-Jan-2026 12:36:59 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: fopen() expects at least 2 arguments, 1 given in C:\xampp\htdocs\work\phpEjercicios8\add_contact.php:29
+Stack trace:
+#0 C:\xampp\htdocs\work\phpEjercicios8\add_contact.php(29): fopen('agenda.txt')
+#1 {main}
+  thrown in C:\xampp\htdocs\work\phpEjercicios8\add_contact.php on line 29
+[16-Jan-2026 13:01:07 Europe/Berlin] PHP Warning:  Undefined variable $movilOk in C:\xampp\htdocs\work\phpEjercicios8\add_contact.php on line 70
+[16-Jan-2026 14:14:20 Europe/Berlin] PHP Warning:  Undefined variable $movilfiltrado in C:\xampp\htdocs\work\phpEjercicios8\add_contact.php on line 41

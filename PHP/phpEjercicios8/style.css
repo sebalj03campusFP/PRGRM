@@ -1,0 +1,203 @@
+/* Style entero hecho con IA */
+/* Reset básico para que todo se vea igual en todos los navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0d1117;
+    /* Fondo oscuro elegante */
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+.subtitulo {
+    color: #8b949e;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+
+/* Contenedor principal: Alinea los cuadros uno al lado del otro */
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+/* Cuadros simétricos: Mismo ancho y alto exacto */
+.cuadro {
+    background-color: #161b22;
+    border: 2px solid #30363d;
+    border-radius: 15px;
+    padding: 40px;
+    width: 320px;
+    /* Ancho fijo para simetría */
+    height: 300px;
+    /* Alto fijo para simetría */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* Separa el título del botón equitativamente */
+    text-align: center;
+    transition: transform 0.2s, border-color 0.2s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.cuadro:hover {
+    transform: translateY(-2px);
+    border-color: #58a6ff;
+}
+
+.cuadro h2 {
+    font-size: 1.5rem;
+    color: #f0f6fc;
+    line-height: 1.5;
+    /* Centrado vertical del texto dentro de su espacio */
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+/* Botones más grandes y llamativos */
+.boton {
+    background-color: #238636;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 18px 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s, filter 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.boton:hover {
+    background-color: #2ea043;
+    filter: brightness(1.1);
+}
+
+.boton:active {
+    transform: scale(0.98);
+}
+
+/* Responsive: si la pantalla es pequeña, se ponen uno debajo del otro */
+@media (max-width: 768px) {
+    .contenedor {
+        flex-direction: column;
+    }
+
+    .cuadro {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
+
+.guardar {
+    background-color: #238636;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    border-radius: 8px;
+    width: 45%;
+    padding: 18px 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.guardar:hover {
+    background-color: #2ea043;
+    filter: brightness(1.1);
+}
+
+.volver {
+    /* Estética base solicitada */
+    background-color: #30363d; /* Un gris oscuro que combina con el fondo del sitio */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 18px 30px;        /* Padding lateral en lugar de width 45% */
+    font-family: var(--font-main);
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+    /* Posicionamiento en la esquina */
+    
+    
+    /* Si quieres que se vea como un link pero con estilo de botón */
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Efecto Hover para feedback visual */
+.volver:hover {
+    background-color: #484f58; /* Se aclara sutilmente al pasar el mouse */
+}
+
+/* clase para el div que encapsula el fieldset */
+.lista {
+    margin-top: 20px; /* separacion para que no se solape con el cuadro de arriba */
+    background-color: #1e1e1f; /* fondo un poco mas claro que el body */
+    border: 1px solid #444; /* borde sutil */
+    border-radius: 8px;
+    padding: 15px;
+    max-height: 400px; /* limite de altura */
+    overflow-y: auto; /* scroll si hay muchos contactos */
+}
+
+.lista fieldset {
+    border: none; /* quitamos el borde por defecto del fieldset */
+    margin: 0;
+    padding: 0;
+}
+
+.lista ul {
+    list-style-type: none; /* quitamos los puntos de la lista */
+    padding: 0;
+    margin: 0;
+}
+
+.lista li {
+    padding: 10px;
+    border-bottom: 1px solid #333; /* linea divisoria entre contactos */
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.lista li:last-child {
+    border-bottom: none; /* quitamos la linea al ultimo elemento */
+}
+
+/* personalizacion del scroll para que no desentone */
+.lista::-webkit-scrollbar {
+    width: 8px;
+}
+
+.lista::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 4px;
+}
