@@ -27,7 +27,7 @@ La aplicación permite borrar los datos de los alumnos extraídos desde una base
 		* [ControladorAlumnos.php](https://github.com/sebalj03campusFP/PRGRM/blob/d9614e1344aa93500c21140f48ed73c17638f30e/MVC-PHP/mvc15EjercicioNoGuiado/apps/controllers/ControladorAlumnos.php)
 }
 * public {
-	* index.php[enter link description here](https://github.com/sebalj03campusFP/PRGRM/blob/d9614e1344aa93500c21140f48ed73c17638f30e/MVC-PHP/mvc15EjercicioNoGuiado/public/index.php)
+	* [index.php](https://github.com/sebalj03campusFP/PRGRM/blob/d9614e1344aa93500c21140f48ed73c17638f30e/MVC-PHP/mvc15EjercicioNoGuiado/public/index.php)
 }
 * storage {
 	* errores.log
