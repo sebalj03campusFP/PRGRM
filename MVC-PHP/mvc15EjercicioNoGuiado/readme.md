@@ -16,18 +16,18 @@ La aplicación permite borrar los datos de los alumnos extraídos desde una base
 > Puedes acceder a cada archivo haciendo **click** en ellos
 * apps { 
 	* models
-		* [Alumnos.php](https://github.com/sebalj03campusFP/PRGRM/blob/e188f89df51ec4120f3ad6ba149757a30b740d5e/MVC-PHP/mvc15EjercicioNoGuiado/apps/controllers/Alumnos.php)
+		* [Alumnos.php](https://github.com/sebalj03campusFP/PRGRM/blob/e188f89df51ec4120f3ad6ba149757a30b740d5e/MVC-PHP/mvc15EjercicioNoGuiado/apps/models/Alumnos.php)
 		* [RepositorioAlumnos.php](https://github.com/sebalj03campusFP/PRGRM/blob/e188f89df51ec4120f3ad6ba149757a30b740d5e/MVC-PHP/mvc15EjercicioNoGuiado/apps/models/RepositorioAlumnos.php)
-		* [ConexionDB.php](https://github.com/sebalj03campusFP/PRGRM/blob/e188f89df51ec4120f3ad6ba149757a30b740d5e/MVC-PHP/mvc15EjercicioNoGuiado/apps/models/ConexionDB.php)
+		* [ConexionDB.php](https://github.com/sebalj03campusFP/PRGRM/blob/d9614e1344aa93500c21140f48ed73c17638f30e/MVC-PHP/mvc15EjercicioNoGuiado/apps/models/ConexionDB.php)
 	* views
-		* [layout.php](https://github.com/sebalj03campusFP/PRGRM/blob/e188f89df51ec4120f3ad6ba149757a30b740d5e/MVC-PHP/mvc15EjercicioNoGuiado/apps/views/layout.php)
+		* [layout.php](https://github.com/sebalj03campusFP/PRGRM/blob/d9614e1344aa93500c21140f48ed73c17638f30e/MVC-PHP/mvc15EjercicioNoGuiado/apps/views/layout.php)
 		* alumnos
-			* [listar.php](https://github.com/sebalj03campusFP/PRGRM/tree/e188f89df51ec4120f3ad6ba149757a30b740d5e/MVC-PHP/mvc15EjercicioNoGuiado/apps/views/alumnos/listar.php)
+			* [listar.php](https://github.com/sebalj03campusFP/PRGRM/blob/d9614e1344aa93500c21140f48ed73c17638f30e/MVC-PHP/mvc15EjercicioNoGuiado/apps/views/listar.php)
 	* controllers
-		* [ControladorAlumnos.php](https://github.com/sebalj03campusFP/PRGRM/blob/e188f89df51ec4120f3ad6ba149757a30b740d5e/MVC-PHP/mvc15EjercicioNoGuiado/apps/controllers/ControladorAlumnos.php)
+		* [ControladorAlumnos.php](https://github.com/sebalj03campusFP/PRGRM/blob/d9614e1344aa93500c21140f48ed73c17638f30e/MVC-PHP/mvc15EjercicioNoGuiado/apps/controllers/ControladorAlumnos.php)
 }
 * public {
-	* index.php[enter link description here](https://github.com/sebalj03campusFP/PRGRM/blob/e188f89df51ec4120f3ad6ba149757a30b740d5e/MVC-PHP/mvc15EjercicioNoGuiado/public/index.php)
+	* index.php[enter link description here](https://github.com/sebalj03campusFP/PRGRM/blob/d9614e1344aa93500c21140f48ed73c17638f30e/MVC-PHP/mvc15EjercicioNoGuiado/public/index.php)
 }
 * storage {
 	* errores.log
